@@ -4,7 +4,8 @@
 
 Hi everyone! In this project, I learned how to convert a design from Figma to HTML and CSS.
 
-Figma Source: [Illustration Based Portfolio Website Template (Community)](https://www.figma.com/file/jY8P9pafCZ6EzRIdGQl1nk/Illustration-Based-Portfolio-Website-Template-(Community)?type=design&node-id=410:1032&mode=dev)
+<p>Figma Source: [Illustration Based Portfolio Website Template (Community)](https://www.figma.com/file/jY8P9pafCZ6EzRIdGQl1nk/Illustration-Based-Portfolio-Website-Template-(Community)?type=design&node-id=410:1032&mode=dev) </p>
+<p></p>Link: https://aryagoberto.github.io/Belajar-Slicing/</p>
 
 ## Tools Used
    <img src="https://github.com/AryaGoberto/Belajar-Slicing/assets/75926720/14fd1dd7-2c9f-45b9-87a7-11885104a510" alt="Figma Logo" width="70">
