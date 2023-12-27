@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Sora;
+}
+.navbar-container{
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 30px 80px;
+    position: relative;
+}
+.navbar-container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.navbar-container .logo img{
+    max-width: 100%;
+}
+.navbar-container .navbar-items{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    gap: 33px;
+}
+
+.navbar-container .download-resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: 20px;
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+.navbar-container .download-resume svg{
+    margin-left: 10px;
+}
+main .halaman-satu{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+main .halaman-satu .banner{
+    display: flex;  
+}
+main .halaman-satu .banner .banner-text
+{
+    max-width: 40%;
+    /* line-height: 29px; */
+}
+main .halaman-satu .banner .banner-text h1
+{
+    font-size: 40px;
+}
+main .halaman-satu .banner .banner-text p
+{
+    margin-top: 20px;
+}
+main .halaman-satu .banner svg{
+    width: 50rem;
+    position: relative;
+    margin-left: 12rem;
+    margin-top: -8rem;
+}
+
+main .halaman-satu .social-media{
+    display: flex;
+    gap: 20px;
+}
+main .halaman-satu .social-media .facebook,
+main .halaman-satu .social-media .reddit,
+main .halaman-satu .social-media .twitter,
+main .halaman-satu .social-media .discord{
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: -10rem;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+main .halaman-satu .social-media .facebook svg,
+main .halaman-satu .social-media .reddit svg,
+main .halaman-satu .social-media .twitter svg,
+main .halaman-satu .social-media .discord svg{
+    justify-content: center;
+}
+
+main .halaman-dua{
+    padding: 40px 80px;
+    margin-top: 40px;
+    width: 100%;
+}
+main .halaman-dua h1{
+    text-align: center;
+}
+
+main .halaman-dua .skills .baris-satu{
+    margin-top: 20px;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+main .halaman-dua .skills .baris-dua{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+
+main .halaman-dua .skills .git,
+main .halaman-dua .skills .javascript,
+main .halaman-dua .skills .sass,
+main .halaman-dua .skills .nest{
+    display: flex;
+    width: 186px;
+    height: 186px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main .halaman-dua .skills .storybook,
+main .halaman-dua .skills .socket{
+    display: flex;
+    width: 186px;
+    height: 186px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+main .halaman-tiga{
+    padding: 40px 80px;
+    margin-top: 40px;
+    width: 100%;
+    background-color: black ;
+    color: white;
+}
+main .halaman-tiga h1{
+    text-align: center;
+}
+main .halaman-tiga .experience-satu,
+main .halaman-tiga .experience-dua,
+main .halaman-tiga .experience-tiga
+{
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 25px;
+    margin-top: 2rem;
+    text-align: justify;
+    border-radius: 20px;
+}
+main .halaman-tiga .experience-satu .header,
+main .halaman-tiga .experience-dua .header,
+main .halaman-tiga .experience-tiga .header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+main .halaman-tiga .experience-satu p,
+main .halaman-tiga .experience-dua p,
+main .halaman-tiga .experience-tiga p{
+    margin-top: 10px;
+}
+
+main .halaman-tiga .experience-satu .header .year,
+main .halaman-tiga .experience-dua .header .year,
+main .halaman-tiga .experience-tiga .header .year{
+    margin-left: auto;
+}
+
+main .halaman-empat{
+    padding: 40px 80px;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+}
+main .halaman-empat svg{
+    width: 150%;
+    margin-top: -4.5rem;
+    margin-right: 50px;
+}
+
+main .halaman-empat .about-me .p-1,
+main .halaman-empat .about-me .p-2,
+main .halaman-empat .about-me .p-3{
+    margin-top: 30px;
+}
+
+main .halaman-lima{
+    padding: 40px 80px;
+    margin-top: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+main .halaman-lima .project-1,
+main .halaman-lima .project-2,
+main .halaman-lima .project-3
+{
+    display: flex;
+    align-items: center;
+}
+main .halaman-lima .project-1 img,
+main .halaman-lima .project-2 img,
+main .halaman-lima .project-3 img{
+    width: 30%;
+    margin-right: 40px;
+}
+main .halaman-lima .project-1 svg,
+main .halaman-lima .project-2 svg,
+main .halaman-lima .project-3 svg{
+    margin-top: 20px;
+}
+
+main .halaman-enam{
+    padding: 40px 80px;
+    margin-top: 40px;
+    width: 100%;
+}
+main .halaman-enam .testimoni{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+main .halaman-enam .testimoni .testi-1,
+main .halaman-enam .testimoni .testi-2,
+main .halaman-enam .testimoni .testi-3{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    row-gap: 30px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+main .halaman-enam .testimoni .testi-1 hr,
+main .halaman-enam .testimoni .testi-2 hr,
+main .halaman-enam .testimoni .testi-3 hr{
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    margin: 10px auto;
+}
+main .halaman-enam .testimoni .testi-1 p,
+main .halaman-enam .testimoni .testi-2 p,
+main .halaman-enam .testimoni .testi-3 p{
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+main .halaman-tujuh{
+    padding: 40px 80px;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+main .halaman-tujuh .form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    width: 35rem;
+
+}
+main .halaman-tujuh .form-box .your-name,
+main .halaman-tujuh .form-box .email,
+main .halaman-tujuh .form-box .website,
+main .halaman-tujuh .form-box .help{
+    width: 24rem;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+main .halaman-tujuh .form-box .call-me{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+main .halaman-tujuh .form-box .call-me .touch{
+    padding: 15px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 5px;
+    color: white;   
+}
+main .halaman-tujuh .form-box .call-me .social-media{
+    display: flex;
+    margin-left: auto;
+}
+main .halaman-tujuh .form-box .call-me .social-media .facebook,
+main .halaman-tujuh .form-box .call-me .social-media .reddit,
+main .halaman-tujuh .form-box .call-me .social-media .twitter,
+main .halaman-tujuh .form-box .call-me .social-media .discord{
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+main .halaman-tujuh .text-box h1,
+main .halaman-tujuh .text-box p,
+main .halaman-tujuh .text-box h3{
+    margin-bottom: 20px;
+}
+main .halaman-tujuh .text-box p{
+    max-width: 80%;
+}
+
+footer{
+    padding: 40px 80px;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+footer .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+footer .logo img{
+    max-width: 100%;
+}
+footer .right{
+    margin-left: auto;
+}
